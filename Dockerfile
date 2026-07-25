@@ -1,6 +1,6 @@
 FROM gradle:7.5-jdk17 as build
 WORKDIR /app
-COPY. .
+COPY . .
 RUN gradle build --no-daemon
 
 FROM eclipse-temurin:17-jdk-alpine
