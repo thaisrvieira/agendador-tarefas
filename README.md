@@ -6,10 +6,10 @@ Microsserviço responsável pelo CRUD de tarefas agendadas pelos usuários, incl
 
 Este serviço faz parte de uma aplicação distribuída em arquitetura de microsserviços, composta por:
 
-- [**BFF**](#) — orquestra as chamadas para os demais serviços
-- [**Usuário**](#) — gerenciamento de usuários, autenticação e endereços
+- [**BFF**](https://github.com/thaisrvieira/bff-agendador-tarefas) — orquestra as chamadas para os demais serviços
+- [**Usuário**](https://github.com/thaisrvieira/usuario) — gerenciamento de usuários, autenticação e endereços
 - **Agendador de Tarefas** (este repositório) — CRUD de tarefas agendadas
-- [**Notificação**](#) — envio de e-mails de notificação
+- [**Notificação**](https://github.com/thaisrvieira/notificacao) — envio de e-mails de notificação
 
 ## 🚀 Tecnologias utilizadas
 
